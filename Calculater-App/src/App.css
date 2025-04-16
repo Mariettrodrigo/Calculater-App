@@ -20,7 +20,7 @@ form input{
   width: 60px;
   height: 60px;
   font-size: 16px;
-  background-color: #6eb396;
+  background-color: #558873;
   margin: 2px;
   border-radius: 10px;
   color: white;
@@ -29,12 +29,24 @@ form input{
 }
 
 form input[type="button"]:hover{
-  background-color: #0f9780;
+  background-color: #345245;
 }
 
 form .display {
   display: flex;
   justify-content: flex-end;
   margin: 5px 0px 20px 0px;
+}
 
+form .display input{
+  text-align: right;
+  flex: 1;
+  font-size: 40px;
+  padding: 5px 10px;
+  background-color: black;
+  opacity: 70%;
+}
+
+form input.equal{
+  width: 123px;
 }
